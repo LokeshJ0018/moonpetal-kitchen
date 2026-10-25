@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17112e">
+  <meta name="description" content="Moonpetal Kitchen — a fantasy-inspired homemade food experience.">
+  <title>Moonpetal Kitchen — A Little Taste of Magic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="star-field" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Moonpetal Kitchen home">
+      <span class="brand-symbol">✦</span>
+      <span class="brand-text"><strong>MOONPETAL</strong><small>HOMEMADE MAGIC</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Magic Menu</a>
+      <a href="#promise">Our Promise</a>
+      <a class="nav-cta" href="#contact">Find Your Feast <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> FROM OUR LITTLE KITCHEN, WITH WONDER</div>
+        <h1>Every bite<br>begins a <em>fairytale.</em></h1>
+        <p class="hero-description">Wholesome homemade favourites, crafted with care and served with a sprinkle of storybook magic.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu <span>✧</span></a>
+          <a class="text-link" href="#story">Wander into our world <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon">☾</span><span>Made slowly. Shared warmly.<br><b>Always a little magical.</b></span></div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Illustrated enchanted moonlit garden">
+        <div class="moon"></div><div class="moon-glow"></div>
+        <div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="fairy-house"><div class="house-roof"></div><div class="house-body"><span class="window"></span><span class="door"></span></div></div>
+        <div class="mushroom mushroom-one"><i></i><b></b></div>
+        <div class="mushroom mushroom-two"><i></i><b></b></div>
+        <div class="flower flower-one">✿</div><div class="flower flower-two">✿</div>
+        <div class="floating-spark spark-a">✦</div><div class="floating-spark spark-b">✧</div>
+        <div class="floating-spark spark-c">✦</div><div class="floating-spark spark-d">·</div>
+        <div class="art-caption"><span>✧</span> a little wonder, made by hand <span>✧</span></div>
+      </div>
+      <div class="hero-bottom"><span>✧</span> A HOME COOKED STORY <span class="line"></span> EST. WITH LOVE <span>✧</span></div>
+    </section>
+
+    <section class="intro section-wrap reveal" id="story">
+      <p class="eyebrow centered">A WARM WELCOME, TRAVELLER</p>
+      <h2>Not just food.<br><em>A feeling of home.</em></h2>
+      <p class="section-copy">In a world that moves too fast, we believe the best things are made with patience, shared with kindness, and remembered long after the last bite.</p>
+      <div class="ornament">✦ ───────── ❋ ───────── ✦</div>
+    </section>
+
+    <section class="menu-section section-wrap" id="menu">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">A FEAST FROM OUR STORYBOOK</p><h2>The <em>Magic Menu</em></h2></div>
+        <p>Little comforts, prepared with a whole lot of heart.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <div class="food-art food-lunch"><span class="food-emoji">🍱</span><span class="food-stamp">HOUSE FAVOURITE</span></div>
+          <div class="card-content"><div class="card-title-row"><h3>The Hearthside Lunch</h3><span class="price">₹120</span></div><p>A comforting home-style meal for a well-earned pause.</p><button class="order-button" data-item="The Hearthside Lunch">Add a little magic <span>↗</span></button></div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="food-art food-breakfast"><span class="food-emoji">🥞</span><span class="food-stamp">SUNRISE SPECIAL</span></div>
+          <div class="card-content"><div class="card-title-row"><h3>Sunbeam Breakfast</h3><span class="price">₹60</span></div><p>A gentle, delicious start to your everyday adventure.</p><button class="order-button" data-item="Sunbeam Breakfast">Add a little magic <span>↗</span></button></div>
+        </article>
+        <article class="menu-card reveal">
+          <div class="food-art food-snacks"><span class="food-emoji">🍪</span><span class="food-stamp">COZY TREAT</span></div>
+          <div class="card-content"><div class="card-title-row"><h3>Enchanted Snacks</h3><span class="price">₹80</span></div><p>Crunchy, cosy treats made for sharing good moments.</p><button class="order-button" data-item="Enchanted Snacks">Add a little magic <span>↗</span></button></div>
+        </article>
+      </div>
+      <p class="demo-note">✧ Portfolio demo menu — sample items and prices can be customised for a real business.</p>
+    </section>
+
+    <section class="promise-section" id="promise">
+      <div class="promise-inner section-wrap">
+        <div class="promise-art reveal"><div class="big-star">✧</div><div class="plate">♡</div><div class="little-leaf leaf-one">❧</div><div class="little-leaf leaf-two">❧</div></div>
+        <div class="promise-copy reveal">
+          <p class="eyebrow">OUR LITTLE PROMISE</p>
+          <h2>Made with care.<br><em>Served with wonder.</em></h2>
+          <p>Every kitchen has a story. Ours is about thoughtful preparation, warm hospitality, and making ordinary moments feel special.</p>
+          <div class="promise-list"><span>✦ Thoughtfully prepared</span><span>✦ Comforting homemade flavours</span><span>✦ A personal touch in every order</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap reveal" id="contact">
+      <div class="contact-card">
+        <div class="contact-spark">✧</div>
+        <p class="eyebrow centered">YOUR NEXT LITTLE ADVENTURE</p>
+        <h2>Shall we save you<br><em>a seat at our table?</em></h2>
+        <p>Have a question or want to explore the menu? Send us a message and let's make something lovely.</p>
+        <button class="button button-primary" id="contact-button">Send an enquiry <span>↗</span></button>
+        <small>Demo site · Add the business WhatsApp number in <code>script.js</code> to activate messaging.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-symbol">✦</span><span class="brand-text"><strong>MOONPETAL</strong><small>HOMEMADE MAGIC</small></span></a>
+    <p>Made with wonder, served with love.</p>
+    <a href="#home" class="back-top">Back to the stars ↑</a>
+    <div class="copyright">© <span id="year"></span> Moonpetal Kitchen · A portfolio concept</div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
